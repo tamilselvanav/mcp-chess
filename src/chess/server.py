@@ -1,5 +1,5 @@
 from mcp.server.fastmcp import FastMCP
-from chess import chess_api
+from .chess_api import get_player_profile, get_player_stats
 
 mcp = FastMCP("Chess")
 
